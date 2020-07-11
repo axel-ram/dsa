@@ -7,7 +7,6 @@ class Queue:
         while(len(self.s1)!=0):
             self.s2.append(self.s1[-1])
             self.s1.pop()
-            
         self.s1.append(data)
         
         while(len(self.s2)!=0):

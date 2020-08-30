@@ -29,5 +29,5 @@ def merge(arr1, arr2, m, n):
 		k+=1
 	return arr3		
 
-print(merge(arr1, arr2, len(arr1), len(arr2)))
+#print(merge(arr1, arr2, len(arr1), len(arr2)))
 

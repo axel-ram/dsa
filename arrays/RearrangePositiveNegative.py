@@ -25,6 +25,8 @@ def rearrangePosNeg(arr):
 	'''
 	start with neg and positive numbers indexes
 	swap alternate neg with positive till all pos or neg are not consumed
+	increase pos with 1
+	increase neg with 2
 	'''
 	pos = i
 	neg = 0

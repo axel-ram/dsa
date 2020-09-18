@@ -13,7 +13,6 @@ def deletion(root, delNode):
 	current = root
 	queue = []
 	queue.append(current)
-	temp = None
 	while(len(queue)):
 		current = queue.pop(0)
 		if current.left == delNode:
@@ -24,6 +23,8 @@ def deletion(root, delNode):
 			queue.append(current.left)
 		if current.right:
 			queue.append(current.right)
+
+
 def bfs(root, data):
 	if root is None:
 		return None

@@ -7,10 +7,8 @@ def rearrangePosNeg(arr):
 		if j<0:
 			swap(arr[i], arr[j])
 			i += 1
-
 		j+=1
 	}
-
 	'''
 	n = len(arr)
 	pivot = 0
@@ -20,8 +18,6 @@ def rearrangePosNeg(arr):
 			arr[i], arr[j] = arr[j], arr[i]
 			i+=1
 		j+=1
-
-
 	'''
 	start with neg and positive numbers indexes
 	swap alternate neg with positive till all pos or neg are not consumed
@@ -39,4 +35,4 @@ def rearrangePosNeg(arr):
 
 arr = [-1, 2, -3, 4, 5, 6, -7, 8, 9]
 rearrangePosNeg(arr)
-rearrangePosNeg([-1, 0])
+rearrangePosNeg([0, 0, 1, -1])
